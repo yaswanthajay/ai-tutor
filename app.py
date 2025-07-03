@@ -1,7 +1,7 @@
 import streamlit as st
-from utils.compare import compare_user_code
-from utils.explain import generate_pseudocode
-from utils.speak import speak
+from compare import compare_user_code
+from explain import generate_pseudocode
+from speak import speak
 
 st.title("🧠 AI Code Tutor - Learn by Doing")
 
